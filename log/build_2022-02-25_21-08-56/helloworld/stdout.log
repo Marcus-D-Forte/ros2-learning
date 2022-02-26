@@ -1,0 +1,111 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld
+[ 25%] [32m[1mLinking CXX executable listener[0m
+[ 75%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/talker
+-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/bin/helloworld/listener
+-- Set runtime path of "/home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/bin/helloworld/listener" to ""
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.sh
+-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.sh
+-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.dsv
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.bash
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.sh
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.zsh
+-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.dsv
+-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.dsv
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/packages/helloworld
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake
+-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.xml

@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[0.043s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.252s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.293s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] CMake Error at CMakeLists.txt:27 (find_package):
+[0.625s]   By not providing "Findpcl_conversionsf.cmake" in CMAKE_MODULE_PATH this
+[0.625s]   project has asked CMake to find a package configuration file provided by
+[0.625s]   "pcl_conversionsf", but CMake did not find one.
+[0.625s] 
+[0.625s]   Could not find a package configuration file provided by "pcl_conversionsf"
+[0.625s]   with any of the following names:
+[0.625s] 
+[0.625s]     pcl_conversionsfConfig.cmake
+[0.625s]     pcl_conversionsf-config.cmake
+[0.625s] 
+[0.625s]   Add the installation prefix of "pcl_conversionsf" to CMAKE_PREFIX_PATH or
+[0.625s]   set "pcl_conversionsf_DIR" to a directory containing one of the above
+[0.625s]   files.  If "pcl_conversionsf" provides a separate development package or
+[0.625s]   SDK, be sure it has been installed.
+[0.625s] 
+[0.625s] 
+[0.626s] -- Configuring incomplete, errors occurred!
+[0.626s] See also "/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld/CMakeFiles/CMakeOutput.log".
+[0.626s] See also "/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld/CMakeFiles/CMakeError.log".
+[0.631s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.633s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8

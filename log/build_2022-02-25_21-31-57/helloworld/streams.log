@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[0.069s] [35m[1mScanning dependencies of target listener[0m
+[0.090s] [ 50%] Built target talker
+[0.099s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[1.518s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:7:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ does not name a type
+[1.518s]     7 | using PointCloudT = [01;31m[Kpcl[m[K::PointCloud<pcl::PointXYZ>;
+[1.519s]       |                     [01;31m[K^~~[m[K
+[1.535s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:26:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudT[m[K’ was not declared in this scope
+[1.535s]    26 |     rclcpp::Subscription<[01;31m[KPointCloudT[m[K>::SharedPtr subscription_pc;
+[1.535s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[1.535s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.536s]    26 |     rclcpp::Subscription<PointCloudT[01;31m[K>[m[K::SharedPtr subscription_pc;
+[1.536s]       |                                     [01;31m[K^[m[K
+[1.536s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.536s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.536s]    26 |     rclcpp::Subscription<PointCloudT>::[01;31m[KSharedPtr[m[K subscription_pc;
+[1.536s]       |                                        [01;31m[K^~~~~~~~~[m[K
+[1.536s]       |                                                 [32m[K;[m[K
+[1.537s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:50:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_pc[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.537s]    26 |     rclcpp::Subscription<PointCloudT>::SharedPtr [01;31m[Ksubscription_pc[m[K;
+[1.538s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.538s]       |                                                  [32m[Krcl_subscription_t[m[K
+[3.095s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[3.095s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[3.095s] make: *** [Makefile:141: all] Error 2
+[3.097s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8

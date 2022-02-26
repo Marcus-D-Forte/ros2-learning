@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (helloworld) JobQueued: {'identifier': 'helloworld', 'dependencies': OrderedDict()}
+[0.000141] (helloworld) JobStarted: {'identifier': 'helloworld'}
+[0.009122] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'cmake'}
+[0.010805] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'build'}
+[0.011037] (helloworld) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', '--', '-j8', '-l8'], 'cwd': '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marcus'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1764'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marcus'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1525'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20230'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marcus'), ('JOURNAL_STREAM', '8:50510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marcus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/marcus/.local/bin:/opt/ros/foxy/bin:/home/marcus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin'), ('SESSION_MANAGER', 'local/marcus-Aspire-A515-54G:@/tmp/.ICE-unix/1803,unix/marcus-Aspire-A515-54G:/tmp/.ICE-unix/1803'), ('INVOCATION_ID', '10af638471c54c2a8557d857076d0d6f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_DATA_HOME', '/home/marcus/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a7a78deaa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('DUNA_SLAM_PATH', '/home/marcus/Workspace/Coding/JavaScript/nomad_viz/server/galeria'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/marcus/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.041827] (helloworld) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.064359] (helloworld) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099284] (-) TimerEvent: {}
+[0.199541] (-) TimerEvent: {}
+[0.246795] (helloworld) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.287919] (helloworld) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.291848] (helloworld) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299638] (-) TimerEvent: {}
+[0.399826] (-) TimerEvent: {}
+[0.417305] (helloworld) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.471401] (helloworld) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.473182] (helloworld) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499922] (-) TimerEvent: {}
+[0.600146] (-) TimerEvent: {}
+[0.614675] (helloworld) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[0.700243] (-) TimerEvent: {}
+[0.800510] (-) TimerEvent: {}
+[0.900771] (-) TimerEvent: {}
+[0.919510] (helloworld) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.000867] (-) TimerEvent: {}
+[1.003684] (helloworld) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.003900] (helloworld) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.004023] (helloworld) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.004138] (helloworld) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.004250] (helloworld) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.004358] (helloworld) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.004467] (helloworld) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.004587] (helloworld) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.004695] (helloworld) StdoutLine: {'line': b'\n'}
+[1.005237] (helloworld) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.005341] (helloworld) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.005409] (helloworld) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.005475] (helloworld) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.005544] (helloworld) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.005604] (helloworld) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.005663] (helloworld) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.005721] (helloworld) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.005796] (helloworld) StdoutLine: {'line': b'\n'}
+[1.006066] (helloworld) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.006164] (helloworld) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.006237] (helloworld) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.006310] (helloworld) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.006378] (helloworld) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.006443] (helloworld) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.006508] (helloworld) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.006573] (helloworld) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.006747] (helloworld) StdoutLine: {'line': b'\n'}
+[1.006837] (helloworld) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.006905] (helloworld) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.006967] (helloworld) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.007028] (helloworld) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.007087] (helloworld) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.007146] (helloworld) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.007216] (helloworld) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.007279] (helloworld) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.007338] (helloworld) StdoutLine: {'line': b'\n'}
+[1.045869] (helloworld) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.053488] (helloworld) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.053759] (helloworld) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.053898] (helloworld) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.066370] (helloworld) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.071905] (helloworld) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.077284] (helloworld) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.089646] (helloworld) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.094890] (helloworld) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.100958] (-) TimerEvent: {}
+[1.106223] (helloworld) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.106789] (helloworld) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.107294] (helloworld) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.107857] (helloworld) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.108388] (helloworld) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.108939] (helloworld) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.109507] (helloworld) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.109954] (helloworld) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.110336] (helloworld) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.110920] (helloworld) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.111543] (helloworld) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.112067] (helloworld) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.112745] (helloworld) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.113388] (helloworld) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.113979] (helloworld) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.114624] (helloworld) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.115256] (helloworld) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.115868] (helloworld) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.116576] (helloworld) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.117112] (helloworld) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.118111] (helloworld) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.118515] (helloworld) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.118932] (helloworld) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.119524] (helloworld) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.201075] (-) TimerEvent: {}
+[1.225716] (helloworld) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.288602] (helloworld) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.289634] (helloworld) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.290301] (helloworld) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/include\n'}
+[1.290403] (helloworld) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.291163] (helloworld) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.291271] (helloworld) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.291650] (helloworld) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.292285] (helloworld) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.292716] (helloworld) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.293641] (helloworld) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.293736] (helloworld) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.294107] (helloworld) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.296947] (helloworld) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301176] (-) TimerEvent: {}
+[1.331761] (helloworld) StdoutLine: {'line': b'-- Generating done\n'}
+[1.333636] (helloworld) StdoutLine: {'line': b'-- Build files have been written to: /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld\n'}
+[1.380604] (helloworld) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[1.380814] (helloworld) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[1.389951] (helloworld) CommandEnded: {'returncode': 0}
+[1.401325] (-) TimerEvent: {}
+[1.410971] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'install'}
+[1.420971] (helloworld) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld'], 'cwd': '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marcus'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1764'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marcus'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1525'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20230'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marcus'), ('JOURNAL_STREAM', '8:50510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marcus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/marcus/.local/bin:/opt/ros/foxy/bin:/home/marcus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin'), ('SESSION_MANAGER', 'local/marcus-Aspire-A515-54G:@/tmp/.ICE-unix/1803,unix/marcus-Aspire-A515-54G:/tmp/.ICE-unix/1803'), ('INVOCATION_ID', '10af638471c54c2a8557d857076d0d6f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_DATA_HOME', '/home/marcus/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a7a78deaa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('DUNA_SLAM_PATH', '/home/marcus/Workspace/Coding/JavaScript/nomad_viz/server/galeria'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/marcus/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.428464] (helloworld) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.428700] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/talker\n'}
+[1.428866] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/listener\n'}
+[1.429062] (helloworld) StdoutLine: {'line': b'-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld\n'}
+[1.429248] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld\n'}
+[1.429422] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.sh\n'}
+[1.429514] (helloworld) StdoutLine: {'line': b'-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv\n'}
+[1.429681] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.sh\n'}
+[1.429778] (helloworld) StdoutLine: {'line': b'-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.dsv\n'}
+[1.429860] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.bash\n'}
+[1.429954] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.sh\n'}
+[1.430016] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.zsh\n'}
+[1.430076] (helloworld) StdoutLine: {'line': b'-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.dsv\n'}
+[1.430137] (helloworld) StdoutLine: {'line': b'-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.dsv\n'}
+[1.430196] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/packages/helloworld\n'}
+[1.430256] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake\n'}
+[1.430320] (helloworld) StdoutLine: {'line': b'-- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake\n'}
+[1.430382] (helloworld) StdoutLine: {'line': b'-- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.xml\n'}
+[1.431937] (helloworld) CommandEnded: {'returncode': 0}
+[1.469949] (helloworld) JobEnded: {'identifier': 'helloworld', 'rc': 0}
+[1.470642] (-) EventReactorShutdown: {}

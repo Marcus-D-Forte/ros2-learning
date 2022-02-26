@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[0.089s] [35m[1mScanning dependencies of target talker[0m
+[0.132s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.135s] [ 75%] Built target listener
+[8.349s] [100%] [32m[1mLinking CXX executable talker[0m
+[8.587s] [100%] Built target talker
+[8.597s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[8.631s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld
+[8.638s] -- Install configuration: ""
+[8.639s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/talker
+[8.641s] -- Set runtime path of "/home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/talker" to ""
+[8.641s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/listener
+[8.641s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.sh
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.sh
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.dsv
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.bash
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.sh
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.zsh
+[8.642s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.dsv
+[8.642s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.dsv
+[8.643s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/packages/helloworld
+[8.643s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake
+[8.643s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake
+[8.643s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.xml
+[8.645s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld

@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[0.037s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.239s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.439s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.576s] CMake Error at CMakeLists.txt:28 (install):
+[0.576s]   install TARGETS given target "my_node" which does not exist.
+[0.576s] 
+[0.577s] 
+[0.577s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.634s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.635s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.635s] -- Configured cppcheck include dirs: 
+[0.635s] -- Configured cppcheck exclude dirs and/or files: 
+[0.636s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.636s] -- Configured cpplint exclude dirs and/or files: 
+[0.636s] -- Added test 'lint_cmake' to check CMake code style
+[0.637s] -- Added test 'uncrustify' to check C / C++ code style
+[0.637s] -- Configured uncrustify additional arguments: 
+[0.637s] -- Added test 'xmllint' to check XML markup files
+[0.640s] -- Configuring incomplete, errors occurred!
+[0.640s] See also "/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld/CMakeFiles/CMakeOutput.log".
+[0.640s] See also "/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld/CMakeFiles/CMakeError.log".
+[0.646s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.648s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8

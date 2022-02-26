@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (helloworld) JobQueued: {'identifier': 'helloworld', 'dependencies': OrderedDict()}
+[0.001297] (helloworld) JobStarted: {'identifier': 'helloworld'}
+[0.011035] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'cmake'}
+[0.012030] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'build'}
+[0.012875] (helloworld) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', '--', '-j8', '-l8'], 'cwd': '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marcus'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1764'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marcus'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1525'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20230'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marcus'), ('JOURNAL_STREAM', '8:50510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marcus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/marcus/.local/bin:/opt/ros/foxy/bin:/home/marcus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin'), ('SESSION_MANAGER', 'local/marcus-Aspire-A515-54G:@/tmp/.ICE-unix/1803,unix/marcus-Aspire-A515-54G:/tmp/.ICE-unix/1803'), ('INVOCATION_ID', '10af638471c54c2a8557d857076d0d6f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_DATA_HOME', '/home/marcus/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a7a78deaa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('DUNA_SLAM_PATH', '/home/marcus/Workspace/Coding/JavaScript/nomad_viz/server/galeria'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/marcus/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.064405] (helloworld) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.086281] (helloworld) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.098768] (-) TimerEvent: {}
+[0.100864] (helloworld) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.198904] (-) TimerEvent: {}
+[0.299201] (-) TimerEvent: {}
+[0.399537] (-) TimerEvent: {}
+[0.499906] (-) TimerEvent: {}
+[0.600163] (-) TimerEvent: {}
+[0.700465] (-) TimerEvent: {}
+[0.800766] (-) TimerEvent: {}
+[0.901051] (-) TimerEvent: {}
+[1.001341] (-) TimerEvent: {}
+[1.101608] (-) TimerEvent: {}
+[1.201936] (-) TimerEvent: {}
+[1.302220] (-) TimerEvent: {}
+[1.402487] (-) TimerEvent: {}
+[1.502816] (-) TimerEvent: {}
+[1.603159] (-) TimerEvent: {}
+[1.703465] (-) TimerEvent: {}
+[1.803771] (-) TimerEvent: {}
+[1.904083] (-) TimerEvent: {}
+[2.004442] (-) TimerEvent: {}
+[2.104744] (-) TimerEvent: {}
+[2.205048] (-) TimerEvent: {}
+[2.305392] (-) TimerEvent: {}
+[2.405685] (-) TimerEvent: {}
+[2.505962] (-) TimerEvent: {}
+[2.606250] (-) TimerEvent: {}
+[2.706552] (-) TimerEvent: {}
+[2.806841] (-) TimerEvent: {}
+[2.907114] (-) TimerEvent: {}
+[3.007407] (-) TimerEvent: {}
+[3.107735] (-) TimerEvent: {}
+[3.207981] (-) TimerEvent: {}
+[3.308263] (-) TimerEvent: {}
+[3.408626] (-) TimerEvent: {}
+[3.508971] (-) TimerEvent: {}
+[3.609247] (-) TimerEvent: {}
+[3.709538] (-) TimerEvent: {}
+[3.809836] (-) TimerEvent: {}
+[3.910162] (-) TimerEvent: {}
+[4.010438] (-) TimerEvent: {}
+[4.110739] (-) TimerEvent: {}
+[4.211124] (-) TimerEvent: {}
+[4.311637] (-) TimerEvent: {}
+[4.411917] (-) TimerEvent: {}
+[4.512229] (-) TimerEvent: {}
+[4.612601] (-) TimerEvent: {}
+[4.712902] (-) TimerEvent: {}
+[4.813192] (-) TimerEvent: {}
+[4.913510] (-) TimerEvent: {}
+[5.013831] (-) TimerEvent: {}
+[5.114135] (-) TimerEvent: {}
+[5.214450] (-) TimerEvent: {}
+[5.259285] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/talker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.259658] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/talker.cpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} in assignment\n'}
+[5.259765] (helloworld) StderrLine: {'line': b'   48 |     pt.r = \x1b[01;31m\x1b[Kthis->get_parameter("color")\x1b[m\x1b[K;\n'}
+[5.259844] (helloworld) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.259912] (helloworld) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.259979] (helloworld) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\n'}
+[5.314571] (-) TimerEvent: {}
+[5.414852] (-) TimerEvent: {}
+[5.515131] (-) TimerEvent: {}
+[5.615441] (-) TimerEvent: {}
+[5.715798] (-) TimerEvent: {}
+[5.816064] (-) TimerEvent: {}
+[5.916332] (-) TimerEvent: {}
+[6.016634] (-) TimerEvent: {}
+[6.116885] (-) TimerEvent: {}
+[6.217165] (-) TimerEvent: {}
+[6.317443] (-) TimerEvent: {}
+[6.417738] (-) TimerEvent: {}
+[6.518037] (-) TimerEvent: {}
+[6.618379] (-) TimerEvent: {}
+[6.649948] (helloworld) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1\n'}
+[6.650205] (helloworld) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2\n'}
+[6.650421] (helloworld) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.653753] (helloworld) CommandEnded: {'returncode': 2}
+[6.699560] (helloworld) JobEnded: {'identifier': 'helloworld', 'rc': 2}
+[6.710200] (-) EventReactorShutdown: {}

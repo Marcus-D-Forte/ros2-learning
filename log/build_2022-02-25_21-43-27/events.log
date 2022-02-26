@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (helloworld) JobQueued: {'identifier': 'helloworld', 'dependencies': OrderedDict()}
+[0.000447] (helloworld) JobStarted: {'identifier': 'helloworld'}
+[0.011264] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'cmake'}
+[0.012315] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'build'}
+[0.013107] (helloworld) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', '--', '-j8', '-l8'], 'cwd': '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marcus'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1764'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marcus'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1525'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20230'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marcus'), ('JOURNAL_STREAM', '8:50510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marcus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/marcus/.local/bin:/opt/ros/foxy/bin:/home/marcus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin'), ('SESSION_MANAGER', 'local/marcus-Aspire-A515-54G:@/tmp/.ICE-unix/1803,unix/marcus-Aspire-A515-54G:/tmp/.ICE-unix/1803'), ('INVOCATION_ID', '10af638471c54c2a8557d857076d0d6f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_DATA_HOME', '/home/marcus/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a7a78deaa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('DUNA_SLAM_PATH', '/home/marcus/Workspace/Coding/JavaScript/nomad_viz/server/galeria'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/marcus/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.058492] (helloworld) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.084086] (helloworld) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.096180] (helloworld) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.099594] (-) TimerEvent: {}
+[0.199891] (-) TimerEvent: {}
+[0.300133] (-) TimerEvent: {}
+[0.400428] (-) TimerEvent: {}
+[0.500681] (-) TimerEvent: {}
+[0.600941] (-) TimerEvent: {}
+[0.701296] (-) TimerEvent: {}
+[0.801562] (-) TimerEvent: {}
+[0.901823] (-) TimerEvent: {}
+[1.002089] (-) TimerEvent: {}
+[1.102353] (-) TimerEvent: {}
+[1.202632] (-) TimerEvent: {}
+[1.302911] (-) TimerEvent: {}
+[1.403186] (-) TimerEvent: {}
+[1.503470] (-) TimerEvent: {}
+[1.603748] (-) TimerEvent: {}
+[1.704019] (-) TimerEvent: {}
+[1.804267] (-) TimerEvent: {}
+[1.904533] (-) TimerEvent: {}
+[2.004802] (-) TimerEvent: {}
+[2.105074] (-) TimerEvent: {}
+[2.205346] (-) TimerEvent: {}
+[2.305621] (-) TimerEvent: {}
+[2.405899] (-) TimerEvent: {}
+[2.506181] (-) TimerEvent: {}
+[2.606459] (-) TimerEvent: {}
+[2.706700] (-) TimerEvent: {}
+[2.806969] (-) TimerEvent: {}
+[2.907239] (-) TimerEvent: {}
+[3.007506] (-) TimerEvent: {}
+[3.107780] (-) TimerEvent: {}
+[3.208062] (-) TimerEvent: {}
+[3.308303] (-) TimerEvent: {}
+[3.408579] (-) TimerEvent: {}
+[3.508861] (-) TimerEvent: {}
+[3.609151] (-) TimerEvent: {}
+[3.709426] (-) TimerEvent: {}
+[3.809695] (-) TimerEvent: {}
+[3.909967] (-) TimerEvent: {}
+[4.010234] (-) TimerEvent: {}
+[4.110574] (-) TimerEvent: {}
+[4.210838] (-) TimerEvent: {}
+[4.311102] (-) TimerEvent: {}
+[4.411380] (-) TimerEvent: {}
+[4.511707] (-) TimerEvent: {}
+[4.612015] (-) TimerEvent: {}
+[4.712348] (-) TimerEvent: {}
+[4.812661] (-) TimerEvent: {}
+[4.868673] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.868881] (helloworld) StderrLine: {'line': b'   26 |     void callback_cloud(const PointCloudT::Ptr msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K{\n'}
+[4.868962] (helloworld) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.869028] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.869093] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:3\x1b[m\x1b[K:\n'}
+[4.869155] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:190:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.869220] (helloworld) StderrLine: {'line': b'  190 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[4.869280] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.907246] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KListener::Listener()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.907544] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:17:139:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.907637] (helloworld) StderrLine: {'line': b'   17 | = this->create_subscription<PointCloudT>("cloud", 10, std::bind(&Listener::callback,this,std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.907854] (helloworld) StderrLine: {'line': b'      |                                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.907923] (helloworld) StderrLine: {'line': b'\n'}
+[4.907986] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[4.908056] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[4.908124] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.908186] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.908251] (helloworld) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[4.908313] (helloworld) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.908374] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.908438] (helloworld) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[4.908498] (helloworld) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.908567] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.908631] (helloworld) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[4.908691] (helloworld) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.908751] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.908819] (helloworld) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >&; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.908891] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.908959] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:17:139:\x1b[m\x1b[K   required from here\n'}
+[4.909019] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909081] (helloworld) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[4.909140] (helloworld) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.909201] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909264] (helloworld) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[4.909323] (helloworld) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.909383] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.909443] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:17:139:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909508] (helloworld) StderrLine: {'line': b'   17 | = this->create_subscription<PointCloudT>("cloud", 10, std::bind(&Listener::callback,this,std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.909568] (helloworld) StderrLine: {'line': b'      |                                                                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.909627] (helloworld) StderrLine: {'line': b'\n'}
+[4.909687] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[4.909746] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[4.909806] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.909866] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909927] (helloworld) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[4.909987] (helloworld) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.910058] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.910153] (helloworld) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[4.910217] (helloworld) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.910277] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.910348] (helloworld) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[4.910409] (helloworld) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.910468] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.910527] (helloworld) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.910598] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.910667] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:17:139:\x1b[m\x1b[K   required from here\n'}
+[4.910729] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.910792] (helloworld) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[4.910851] (helloworld) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.910911] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.910976] (helloworld) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[4.911036] (helloworld) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.911094] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.911154] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:17:139:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.911216] (helloworld) StderrLine: {'line': b'   17 | = this->create_subscription<PointCloudT>("cloud", 10, std::bind(&Listener::callback,this,std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.911276] (helloworld) StderrLine: {'line': b'      |                                                                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.911337] (helloworld) StderrLine: {'line': b'\n'}
+[4.912530] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Listener::callback_cloud(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::Ptr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.912632] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.912697] (-) TimerEvent: {}
+[4.912795] (helloworld) StderrLine: {'line': b'   26 |     void callback_cloud(\x1b[01;35m\x1b[Kconst PointCloudT::Ptr msg\x1b[m\x1b[K){\n'}
+[4.912870] (helloworld) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.012828] (-) TimerEvent: {}
+[5.113103] (-) TimerEvent: {}
+[5.213379] (-) TimerEvent: {}
+[5.313656] (-) TimerEvent: {}
+[5.413931] (-) TimerEvent: {}
+[5.514201] (-) TimerEvent: {}
+[5.614474] (-) TimerEvent: {}
+[5.714763] (-) TimerEvent: {}
+[5.815036] (-) TimerEvent: {}
+[5.915333] (-) TimerEvent: {}
+[6.015595] (-) TimerEvent: {}
+[6.115912] (-) TimerEvent: {}
+[6.216237] (-) TimerEvent: {}
+[6.316566] (-) TimerEvent: {}
+[6.416839] (-) TimerEvent: {}
+[6.517113] (-) TimerEvent: {}
+[6.617349] (-) TimerEvent: {}
+[6.717649] (-) TimerEvent: {}
+[6.740793] (helloworld) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1\n'}
+[6.741076] (helloworld) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[6.741282] (helloworld) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.743145] (helloworld) CommandEnded: {'returncode': 2}
+[6.778310] (helloworld) JobEnded: {'identifier': 'helloworld', 'rc': 2}
+[6.788772] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[0.056s] [35m[1mScanning dependencies of target talker[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.186s] [01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/talker.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: No such file or directory
+[0.186s]    10 | #include [01;31m[K<pcl/point_cloud.h>[m[K
+[0.186s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.186s] compilation terminated.
+[0.188s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[0.188s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[0.188s] make: *** [Makefile:141: all] Error 2
+[0.191s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8

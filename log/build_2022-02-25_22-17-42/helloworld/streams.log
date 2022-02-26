@@ -1,0 +1,119 @@
+[0.013s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[0.042s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.247s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.615s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.919s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.004s] -- The imported target "vtkParseOGLExt" references the file
+[1.004s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.004s] but this file does not exist.  Possible reasons include:
+[1.004s] * The file was deleted, renamed, or moved to another location.
+[1.004s] * An install or uninstall procedure did not complete successfully.
+[1.004s] * The installation package was faulty and contained
+[1.004s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.005s] but not all the files it references.
+[1.005s] 
+[1.005s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.005s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.005s] but this file does not exist.  Possible reasons include:
+[1.005s] * The file was deleted, renamed, or moved to another location.
+[1.005s] * An install or uninstall procedure did not complete successfully.
+[1.005s] * The installation package was faulty and contained
+[1.006s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.006s] but not all the files it references.
+[1.006s] 
+[1.006s] -- The imported target "vtk" references the file
+[1.006s]    "/usr/bin/vtk"
+[1.006s] but this file does not exist.  Possible reasons include:
+[1.006s] * The file was deleted, renamed, or moved to another location.
+[1.006s] * An install or uninstall procedure did not complete successfully.
+[1.006s] * The installation package was faulty and contained
+[1.006s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.006s] but not all the files it references.
+[1.007s] 
+[1.007s] -- The imported target "pvtk" references the file
+[1.007s]    "/usr/bin/pvtk"
+[1.007s] but this file does not exist.  Possible reasons include:
+[1.007s] * The file was deleted, renamed, or moved to another location.
+[1.007s] * An install or uninstall procedure did not complete successfully.
+[1.007s] * The installation package was faulty and contained
+[1.007s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.007s] but not all the files it references.
+[1.007s] 
+[1.046s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.053s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.054s] ** WARNING ** io features related to pcap will be disabled
+[1.054s] ** WARNING ** io features related to png will be disabled
+[1.066s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.072s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.077s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.090s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.095s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.106s] -- looking for PCL_COMMON
+[1.107s] -- looking for PCL_KDTREE
+[1.107s] -- looking for PCL_OCTREE
+[1.108s] -- looking for PCL_SEARCH
+[1.108s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.109s] -- looking for PCL_FILTERS
+[1.109s] -- looking for PCL_2D
+[1.110s] -- looking for PCL_GEOMETRY
+[1.110s] -- looking for PCL_IO
+[1.111s] -- looking for PCL_FEATURES
+[1.111s] -- looking for PCL_ML
+[1.112s] -- looking for PCL_SEGMENTATION
+[1.113s] -- looking for PCL_VISUALIZATION
+[1.113s] -- looking for PCL_SURFACE
+[1.114s] -- looking for PCL_REGISTRATION
+[1.115s] -- looking for PCL_KEYPOINTS
+[1.115s] -- looking for PCL_TRACKING
+[1.116s] -- looking for PCL_RECOGNITION
+[1.116s] -- looking for PCL_STEREO
+[1.117s] -- looking for PCL_APPS
+[1.118s] -- looking for PCL_IN_HAND_SCANNER
+[1.118s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.119s] -- looking for PCL_OUTOFCORE
+[1.119s] -- looking for PCL_PEOPLE
+[1.226s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.289s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.290s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.290s] -- Configured cppcheck include dirs: /home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/include
+[1.290s] -- Configured cppcheck exclude dirs and/or files: 
+[1.291s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.291s] -- Configured cpplint exclude dirs and/or files: 
+[1.292s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.292s] -- Added test 'lint_cmake' to check CMake code style
+[1.293s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.294s] -- Added test 'uncrustify' to check C / C++ code style
+[1.294s] -- Configured uncrustify additional arguments: 
+[1.294s] -- Added test 'xmllint' to check XML markup files
+[1.297s] -- Configuring done
+[1.332s] -- Generating done
+[1.334s] -- Build files have been written to: /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld
+[1.381s] [100%] Built target listener
+[1.381s] [100%] Built target talker
+[1.390s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
+[1.421s] Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld
+[1.428s] -- Install configuration: ""
+[1.429s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/talker
+[1.429s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/lib/helloworld/listener
+[1.429s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld
+[1.429s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld
+[1.429s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.sh
+[1.429s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.sh
+[1.430s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/environment/path.dsv
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.bash
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.sh
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.zsh
+[1.430s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/local_setup.dsv
+[1.430s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.dsv
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/ament_index/resource_index/packages/helloworld
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake
+[1.430s] -- Up-to-date: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake
+[1.430s] -- Installing: /home/marcus/Workspace/ROS/ros2/dev_ws/install/helloworld/share/helloworld/package.xml
+[1.433s] Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld

@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.000697] (helloworld) JobQueued: {'identifier': 'helloworld', 'dependencies': OrderedDict()}
+[0.000741] (helloworld) JobStarted: {'identifier': 'helloworld'}
+[0.010518] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'cmake'}
+[0.011672] (helloworld) JobProgress: {'identifier': 'helloworld', 'progress': 'build'}
+[0.012552] (helloworld) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', '--', '-j8', '-l8'], 'cwd': '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marcus'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1764'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marcus'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1525'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20230'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marcus'), ('JOURNAL_STREAM', '8:50510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marcus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/marcus/.local/bin:/opt/ros/foxy/bin:/home/marcus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin:/home/marcus/Workspace/Coding/Cpp/Cpp-PCL/bin:/usr/local/cuda/bin:/home/marcus/Software/node-v16.14.0-linux-x64/bin'), ('SESSION_MANAGER', 'local/marcus-Aspire-A515-54G:@/tmp/.ICE-unix/1803,unix/marcus-Aspire-A515-54G:/tmp/.ICE-unix/1803'), ('INVOCATION_ID', '10af638471c54c2a8557d857076d0d6f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_DATA_HOME', '/home/marcus/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a7a78deaa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('DUNA_SLAM_PATH', '/home/marcus/Workspace/Coding/JavaScript/nomad_viz/server/galeria'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/marcus/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.056727] (helloworld) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.077449] (helloworld) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.089695] (helloworld) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.100039] (-) TimerEvent: {}
+[0.200334] (-) TimerEvent: {}
+[0.300607] (-) TimerEvent: {}
+[0.400850] (-) TimerEvent: {}
+[0.501130] (-) TimerEvent: {}
+[0.601377] (-) TimerEvent: {}
+[0.701676] (-) TimerEvent: {}
+[0.801949] (-) TimerEvent: {}
+[0.902216] (-) TimerEvent: {}
+[1.002452] (-) TimerEvent: {}
+[1.102735] (-) TimerEvent: {}
+[1.203012] (-) TimerEvent: {}
+[1.303302] (-) TimerEvent: {}
+[1.403593] (-) TimerEvent: {}
+[1.503868] (-) TimerEvent: {}
+[1.604119] (-) TimerEvent: {}
+[1.704411] (-) TimerEvent: {}
+[1.804703] (-) TimerEvent: {}
+[1.905023] (-) TimerEvent: {}
+[2.005289] (-) TimerEvent: {}
+[2.105565] (-) TimerEvent: {}
+[2.205836] (-) TimerEvent: {}
+[2.306109] (-) TimerEvent: {}
+[2.406336] (-) TimerEvent: {}
+[2.506609] (-) TimerEvent: {}
+[2.606890] (-) TimerEvent: {}
+[2.707157] (-) TimerEvent: {}
+[2.807427] (-) TimerEvent: {}
+[2.907723] (-) TimerEvent: {}
+[3.007998] (-) TimerEvent: {}
+[3.108274] (-) TimerEvent: {}
+[3.208544] (-) TimerEvent: {}
+[3.308823] (-) TimerEvent: {}
+[3.409111] (-) TimerEvent: {}
+[3.509397] (-) TimerEvent: {}
+[3.609674] (-) TimerEvent: {}
+[3.709945] (-) TimerEvent: {}
+[3.810210] (-) TimerEvent: {}
+[3.910465] (-) TimerEvent: {}
+[4.010737] (-) TimerEvent: {}
+[4.111013] (-) TimerEvent: {}
+[4.211288] (-) TimerEvent: {}
+[4.311562] (-) TimerEvent: {}
+[4.411840] (-) TimerEvent: {}
+[4.512118] (-) TimerEvent: {}
+[4.612391] (-) TimerEvent: {}
+[4.644506] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Listener::callback_cloud(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.644900] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator>>\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZRGB, Eigen::aligned_allocator<pcl::PointXYZRGB> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.645374] (helloworld) StderrLine: {'line': b'   31 |         \x1b[32m\x1b[Kstd::cout << "cloud size: "\x1b[m\x1b[K \x1b[01;31m\x1b[K>>\x1b[m\x1b[K \x1b[34m\x1b[Kcloud.points.size()\x1b[m\x1b[K;\n'}
+[4.645906] (helloworld) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.645981] (helloworld) StderrLine: {'line': b'      |                   \x1b[32m\x1b[K|\x1b[m\x1b[K                                     \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[4.646049] (helloworld) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K              \x1b[34m\x1b[Kstd::vector<pcl::PointXYZRGB, Eigen::aligned_allocator<pcl::PointXYZRGB> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.646115] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koperator>>(int, std::vector<pcl::PointXYZRGB, Eigen::aligned_allocator<pcl::PointXYZRGB> >::size_type {aka long unsigned int})\x1b[m\x1b[K\xe2\x80\x99 <built-in>\n'}
+[4.646181] (helloworld) StderrLine: {'line': b'   31 |         \x1b[01;36m\x1b[Kstd::cout << "cloud size: " >> cloud.points.size()\x1b[m\x1b[K;\n'}
+[4.646252] (helloworld) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.646318] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.646380] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:56\x1b[m\x1b[K,\n'}
+[4.646441] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[4.646500] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[4.646560] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[4.646620] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[4.646679] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[4.646738] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[4.646797] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.646856] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.tcc:1466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.646918] (helloworld) StderrLine: {'line': b' 1466 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __in,\n'}
+[4.647036] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.647098] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.tcc:1466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.647166] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.647232] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.647293] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.647352] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/istream:991\x1b[m\x1b[K,\n'}
+[4.647412] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.647477] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.647538] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.647598] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.647657] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.647716] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.647780] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/istream.tcc:931:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.647846] (helloworld) StderrLine: {'line': b'  931 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)\n'}
+[4.647905] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.647964] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/istream.tcc:931:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.648024] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.648087] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.648148] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.648207] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.648265] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.648324] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.648384] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.648443] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.648502] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.648567] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:756:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.648632] (helloworld) StderrLine: {'line': b'  756 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, unsigned char& __c)\n'}
+[4.648691] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.648750] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:756:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.648809] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.648869] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.648928] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.648987] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.649057] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.649116] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.649176] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.649235] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.649293] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.649352] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.649412] (helloworld) StderrLine: {'line': b'  761 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, signed char& __c)\n'}
+[4.649472] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.649531] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.649596] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.649658] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.649716] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.649775] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/istream:991\x1b[m\x1b[K,\n'}
+[4.649838] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.649897] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.649957] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.650022] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.650083] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.650146] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.650206] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/istream.tcc:963:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.650282] (helloworld) StderrLine: {'line': b'  963 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)\n'}
+[4.650343] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.650402] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/istream.tcc:963:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.650461] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.650522] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.650582] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.650643] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.650702] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.650760] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.650818] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.650877] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.650935] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.650993] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:803:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.651053] (helloworld) StderrLine: {'line': b'  803 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, unsigned char* __s)\n'}
+[4.651112] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.651172] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:803:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.651236] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.651296] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.651354] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.651413] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.651481] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.651540] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.651599] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.651658] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.651723] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.651783] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:808:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.651844] (helloworld) StderrLine: {'line': b'  808 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, signed char* __s)\n'}
+[4.651904] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.651964] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:808:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.652024] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.652085] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.652144] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.652202] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:40\x1b[m\x1b[K,\n'}
+[4.652265] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.652324] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.652387] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.652446] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.652504] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.652563] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:980:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.652635] (helloworld) StderrLine: {'line': b'  980 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(_Istream&& __is, _Tp&& __x)\n'}
+[4.652695] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.652752] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:980:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.652811] (helloworld) StderrLine: {'line': b'/usr/include/c++/9/istream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&) [with _Istream = std::basic_ostream<char>&; _Tp = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.652874] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K   required from here\n'}
+[4.652933] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/istream:980:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.652993] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:96\x1b[m\x1b[K,\n'}
+[4.653052] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75\x1b[m\x1b[K,\n'}
+[4.653111] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10\x1b[m\x1b[K,\n'}
+[4.653170] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[4.653228] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46\x1b[m\x1b[K,\n'}
+[4.653287] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.653345] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/complex:498:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.653409] (helloworld) StderrLine: {'line': b'  498 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)\n'}
+[4.653470] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.653531] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/complex:498:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.653590] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.653651] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.653714] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.653772] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_types.h:43\x1b[m\x1b[K,\n'}
+[4.653831] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/common/impl/copy_point.hpp:41\x1b[m\x1b[K,\n'}
+[4.653891] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[4.653950] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[4.654010] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/common/io.h:586\x1b[m\x1b[K,\n'}
+[4.654069] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:41\x1b[m\x1b[K,\n'}
+[4.654129] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.654188] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.654259] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.654323] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bitset:1470:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, long unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.654391] (helloworld) StderrLine: {'line': b' 1470 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)\n'}
+[4.654455] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.654516] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bitset:1470:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.654577] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.654639] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.654698] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.654757] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.654815] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.654874] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.654931] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.654990] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.655049] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.655108] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.655172] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.655231] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.655290] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.655349] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.655409] (helloworld) StderrLine: {'line': b'   71 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)\n'}
+[4.655468] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.655527] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.655590] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.655652] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.655711] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.655771] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.655829] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.655888] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.655945] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.656024] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.656117] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.656178] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.656237] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.656295] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.656353] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.656412] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.656473] (helloworld) StderrLine: {'line': b'  101 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)\n'}
+[4.656541] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.656600] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.656662] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.656724] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.656782] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.656840] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.656898] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.656957] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.657017] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.657076] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.657135] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.657194] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.657252] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.657310] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.657368] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.657426] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.657487] (helloworld) StderrLine: {'line': b'  132 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)\n'}
+[4.657546] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.657605] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.657664] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.657734] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.657793] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.657852] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.657915] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.657974] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.658033] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.658092] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.658151] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.658210] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.658281] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.658342] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.658400] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.658458] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.658519] (helloworld) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)\n'}
+[4.658578] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.658636] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.658695] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.658760] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.658819] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.658881] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.658939] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.658998] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.659057] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.659116] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.659174] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.659233] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.659291] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.659353] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.659411] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.659470] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.659530] (helloworld) StderrLine: {'line': b'  200 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)\n'}
+[4.659590] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.659649] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.659707] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.659772] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.659832] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.659890] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.659949] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.660008] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.660067] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.660125] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.660184] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.660243] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.660301] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.660359] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.660416] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.660473] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.660533] (helloworld) StderrLine: {'line': b'  230 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)\n'}
+[4.660592] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.660650] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.660713] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.660774] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.660832] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.660891] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.660948] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.661006] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.661067] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.661126] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.661188] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.661247] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.661306] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.661365] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.661423] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.661481] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:264:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.661541] (helloworld) StderrLine: {'line': b'  264 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)\n'}
+[4.661599] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.661658] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:264:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.661717] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.661777] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.661839] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.661899] (helloworld) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/date_time/date_formatting.hpp:17\x1b[m\x1b[K,\n'}
+[4.661957] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/formatters.hpp:17\x1b[m\x1b[K,\n'}
+[4.662018] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/gregorian/gregorian.hpp:25\x1b[m\x1b[K,\n'}
+[4.662076] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/time_formatters.hpp:12\x1b[m\x1b[K,\n'}
+[4.662134] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time.hpp:24\x1b[m\x1b[K,\n'}
+[4.662192] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/boost.h:57\x1b[m\x1b[K,\n'}
+[4.662267] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/file_io.h:42\x1b[m\x1b[K,\n'}
+[4.662331] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44\x1b[m\x1b[K,\n'}
+[4.662390] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[4.662448] (helloworld) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[4.662506] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:418:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.662566] (helloworld) StderrLine: {'line': b'  418 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)\n'}
+[4.662624] (helloworld) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.662682] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:418:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.662741] (helloworld) StderrLine: {'line': b'\x1b[01m\x1b[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:31:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.662802] (helloworld) StderrLine: {'line': b'   31 |         std::cout << "cloud size: " >> cloud.points.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.662861] (helloworld) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.712515] (-) TimerEvent: {}
+[4.812792] (-) TimerEvent: {}
+[4.913070] (-) TimerEvent: {}
+[5.013355] (-) TimerEvent: {}
+[5.113629] (-) TimerEvent: {}
+[5.213906] (-) TimerEvent: {}
+[5.314179] (-) TimerEvent: {}
+[5.414435] (-) TimerEvent: {}
+[5.514711] (-) TimerEvent: {}
+[5.614986] (-) TimerEvent: {}
+[5.715268] (-) TimerEvent: {}
+[5.815539] (-) TimerEvent: {}
+[5.915816] (-) TimerEvent: {}
+[6.016108] (-) TimerEvent: {}
+[6.116381] (-) TimerEvent: {}
+[6.216662] (-) TimerEvent: {}
+[6.316940] (-) TimerEvent: {}
+[6.417214] (-) TimerEvent: {}
+[6.517488] (-) TimerEvent: {}
+[6.617776] (-) TimerEvent: {}
+[6.718064] (-) TimerEvent: {}
+[6.818363] (-) TimerEvent: {}
+[6.853692] (helloworld) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1\n'}
+[6.853971] (helloworld) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[6.854115] (helloworld) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.856087] (helloworld) CommandEnded: {'returncode': 2}
+[6.889690] (helloworld) JobEnded: {'identifier': 'helloworld', 'rc': 2}
+[6.900341] (-) EventReactorShutdown: {}
