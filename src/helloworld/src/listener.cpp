@@ -13,7 +13,7 @@ public:
     Listener() : Node("listener")
     {
         // subscription = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&Listener::callback,this,std::placeholders::_1));
-        subscription = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&Listener::callback,this,std::placeholders::_1));
+        subscription = this->create_subscription<std_msgs::msg::String>("topic", rclcpp::SensorDataQoS(), std::bind(&Listener::callback,this,std::placeholders::_1));
         subscription_cloud = this->create_subscription<PointCloudT>("cloud", 10, std::bind(&Listener::callback_cloud,this,std::placeholders::_1));
     }
 

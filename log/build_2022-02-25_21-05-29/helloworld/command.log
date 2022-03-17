@@ -1,2 +1,0 @@
-Invoking command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8
-Invoked command in '/home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marcus/Workspace/ROS/ros2/dev_ws/build/helloworld -- -j8 -l8

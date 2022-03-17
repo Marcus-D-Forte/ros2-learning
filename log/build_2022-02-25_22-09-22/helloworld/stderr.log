@@ -1,9 +1,0 @@
-[01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/talker.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
-[01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/talker.cpp:48:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in assignment
-   48 |     pt.r = [01;31m[Kthis->get_parameter("color")[m[K;
-      |            [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
-      |                               [01;31m[K|[m[K
-      |                               [01;31m[Krclcpp::Parameter[m[K
-make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

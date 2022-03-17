@@ -1,4 +1,0 @@
-[01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:[m[K In member function ‘[01m[Kvoid Listener::callback_cloud(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/marcus/Workspace/ROS/ros2/dev_ws/src/helloworld/src/listener.cpp:26:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   26 |     void callback_cloud([01;35m[Kconst PointCloudT::SharedPtr msg[m[K){
-      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
