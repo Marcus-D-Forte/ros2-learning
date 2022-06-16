@@ -44,5 +44,5 @@ namespace helloworld
         publisher_cloud->publish(cloud);
     }
 } // namespace
-#include <rclcpp_components/register_node_macro.hpp>
-RCLCPP_COMPONENTS_REGISTER_NODE(helloworld::MinimalPublisher)
+// #include "rclcpp_components/register_node_macro.hpp"
+// RCLCPP_COMPONENTS_REGISTER_NODE(helloworld::MinimalPublisher)
